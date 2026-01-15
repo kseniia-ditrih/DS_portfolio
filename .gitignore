@@ -1,1 +1,17 @@
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Spark/Java
+spark-warehouse/
+derby.log
+metastore_db/
+*.class
+*.jar
+
+# Папки с артефактами
+artifacts/
+**/artifacts/
